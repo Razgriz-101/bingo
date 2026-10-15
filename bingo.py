@@ -1,8 +1,9 @@
+"""コンソール版BINGO抽選機。"""
+
 import random as rd
-import time
 
 def main():
-    
+    """Enterキーを受け付けながら、重複なしで番号を抽選する。"""
     # ビンゴの数列を初期化
     nums = list(x for x in range(1, 76))
     
